@@ -12,7 +12,7 @@ jobs:
   train:
     runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it ddddd
     - name: Check Out Repository
       id: checkout_repository
       uses: actions/checkout@v2
